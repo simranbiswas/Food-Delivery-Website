@@ -1,0 +1,98 @@
+.logoss {
+    position: absolute;
+    vertical-align: middle;
+    /* left: 50%; */
+    text-align: center;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 13px;
+    /* padding-bottom: 50%; */
+}
+
+.ee {
+    font-size: 45px;
+    position: relative;
+    top: -5px;
+}
+.input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: '20px';
+    align-content: center;
+    
+}
+
+h1{
+    display: inline;
+}
+
+#eat{
+    color: white;
+    font-family: 'Righteous',
+    cursive;
+    margin-left: 30px;
+}
+.user{
+    font-family: 'Sora',
+    sans-serif;
+    text-align: center;
+}
+#lo{
+    font-family: 'Righteous',
+    cursive;
+    color: #CF002D;
+}
+#title{
+    font-family: 'McLaren',
+    cursive;
+    margin-top: 10px;
+}
+#art{
+    width: 200px;
+    height: 200px;
+}
+
+.cap{
+        font-family: 'Oregano',
+        cursive;
+}
+#cap1{
+    padding-top: 120px;
+    padding-right: 20px;
+    padding-left: 50px;
+}
+#cap2{
+     padding-top: 10px;
+     padding-left: 50px;
+}
+#cap3 {
+    padding-top: 90px;
+    padding-left: 50px;
+}
+#cap4{
+    padding-left: 70px;
+}
+#step{
+    font-family: 'Sora',
+    sans-serif;
+    color: #CF002D;
+    font-size: 20px;
+}
+
+.btn-danger{
+    border-radius: 24px;
+    box-shadow: 0 3px 0 0 #972525;
+}
+.btn-success{
+    border-radius: 24px;
+    box-shadow: 0 3px 0 0 #228622;
+}

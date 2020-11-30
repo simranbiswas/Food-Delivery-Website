@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+#dish {
+    width: 100%;
+    height: 200px;
+    background: #FFF;
+    margin: 20px auto;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#heading {
+    font-family: 'Raleway',
+        sans-serif;
+}
+
+#thumb {
+    display: flex;
+    height: 225px;
+    width: 275px;
+    margin: auto;
+}
+
+#slider {
+    background-color: #54123b;
+    color: white;
+}
+
+#reserveBtn {
+    height: 150px;
+    width: 150px;
+    vertical-align: middle;
+
+}
+
+h5 {
+    display: inline;
+}
+
+#desc {
+    color: gray;
+}
+
+#graphics {
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+}
+
+.modal-header {
+    background-color: #cf002d;
+    color: white;
+}
+
+.close {
+    color: white;
+}
+
+span {
+    cursor: pointer;
+}
+
+.number {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.minus,
+.plus {
+    width: 60px;
+    background: #f1efef;
+    border-radius: 40%;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #ddd;
+
+}
+
+input {
+    height: 34px;
+    width: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: #a00527;
+    color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: rgb(168, 167, 167);
+    color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}

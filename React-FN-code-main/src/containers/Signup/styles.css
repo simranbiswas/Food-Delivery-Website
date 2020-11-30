@@ -1,0 +1,24 @@
+#lo {
+    font-family: 'Righteous',
+        cursive;
+    color: #CF002D;
+}
+
+.btn-primary {
+    border-radius: 24px;
+    box-shadow: 0 3px 0 0 #2a2abb;
+}
+
+*{
+     font-family: 'Raleway',
+     sans-serif ;
+}
+.box{
+     width:60%;
+     height:550px;
+     background:#ffffffdc;
+     margin:30px auto;
+    -webkit-box-shadow: 10px 10px 8px 5px #b6b4b4;
+    -moz-box-shadow: 10px 10px 8px 5px #b6b4b4;
+    box-shadow: 5px 5px 8px 5px #b6b4b4;
+}

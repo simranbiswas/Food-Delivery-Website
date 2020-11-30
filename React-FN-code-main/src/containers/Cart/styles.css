@@ -1,0 +1,14 @@
+#img {
+    width: 180px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(0.5);
+    /* IE 9 */
+    -webkit-transform: scale(0.5);
+    /* Chrome, Safari, Opera */
+    transform: scale(0.5);
+}

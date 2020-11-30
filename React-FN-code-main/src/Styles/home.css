@@ -1,0 +1,489 @@
+.page {
+    width: 100%;
+    height: 100%;
+    background-color: #fbfbfb;
+  }
+  #search{
+  background-color: white;
+  position: relative; 
+  top:-350px;
+  left:-400px;
+  }
+  .image{
+      width: 100%;
+      height: 300px;
+  }
+  li{
+    color: black;
+    position: relative;
+    top:-350px;
+    left:50%;
+    background-color:white;
+    right: 50%;
+  }
+  
+.heading {
+    
+    position: relative;
+    top: -320px;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    font-weight: 600;
+   
+    text-shadow: 3px 2px 0 #7A7A7A;
+    color: #FFFFFF;
+}
+.e {
+  width: 68px;
+  height: 99px;
+  font-size: 70px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: center;
+  color: #eb2929;
+  position: relative;
+  top: -15px;
+  left: 5px;
+  font-family: 'Righteous',
+  cursive;
+  
+}
+
+.logo {
+    position: absolute;
+    top: 15%;
+    
+    text-align: center;
+    /*color: red;*/
+    background-color: white;
+    border-radius: 50%;
+    width: 90px;
+    height: 80px;
+    margin-left: 45%;
+    margin-right: 100%;
+    font-size: 15px;
+    /* padding-bottom: 50%; */
+}
+.dd {
+    position: relative;
+    top: -290px;
+    text-align: center;
+    margin-left: 25%;
+    width: 245px;
+    height: 60px;
+    text-align: center;
+    font-size: large;
+    color: #192f60;
+}
+
+.glyphicon glyphicon-search {
+  width: 100px;
+  height: 100px;
+  opacity: 0.97;
+  background-color: black;
+}
+.dd2 {
+  width: 477px;
+  height: 60px;
+  position: relative;
+  top: -350px;
+  margin-left: 45%;
+  text-align: center;
+  font-size: large;
+  color: #192f60;
+}
+.filter {
+    /*display: float:left;*/
+     /*display: inline-block;*/
+     float: left;
+     width: 340px;
+      padding-left: 25px;
+      height: 160px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      background-color: var(--white);
+      margin-left: 50px;
+      margin-right: 20px;
+      margin-top:20px;
+      margin-bottom: 20px;
+      position: relative;
+      top:-140px;
+    }
+    .filter1 {
+        /*display: float:left;*/
+        /*display: inline-block;*/
+        float: left;
+        width: 340px;
+        padding-left: 25px;
+        margin-top: 20px;
+        height: 160px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: var(--white);
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        position: relative;
+      top:-140px;
+        }
+        .img {
+           margin-left: -7%;
+            width: 160px;
+            height: 160px;
+            /*object-fit: contain;*/
+          }
+          .Breakfast {
+            /*width: 50px;
+            height: 25px;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: red;
+            position: relative;
+            top: -155px;
+            margin-left: 50%;*/
+            color: #192f60;
+    position: relative;
+    top:-200px;
+   margin-left: 50%;
+          }
+          .Breakfast1 {
+            width: 100px;
+            height: 25px;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+            position: relative;
+            top: -200px;
+            margin-left: 50%;
+        }
+        .Quick-Searches {
+            width: 239px;
+            height: 43px;
+            font-family: Poppins;
+            font-size: 30px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            text-align: left;
+            color:#192f60;
+            margin-left: 45px;
+            position: relative;
+            top: -150px;
+          }
+          .meal {
+            width: 331px;
+            height: 25px;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            margin-left: 43px;
+            position: relative;
+            top: -150px;
+            color:#8c96ab
+            ;
+          }
+          @media only screen and (max-width: 600px){
+            .heading {
+              width: 500px;
+              height: 30px;
+              
+              font-size: 46px;
+              position: relative;
+              top: -320px;
+              color: white;
+              text-align: center;
+              font-size: 29px;
+              margin: auto;
+              font-weight: 600;
+          }
+          #search{
+            background-color: white;
+            position: relative; 
+            top:-310px;
+            left:-175px;
+            }
+          .dd {
+            position: relative;
+            top: -250px;
+            text-align: center;
+            margin-left: 25%;
+            width: 110px;
+            height: 60px;
+            text-align: center;
+          font-size: small;
+          border-color: #fbfbfb;
+        }
+        .dd2 {
+          width: 180px;
+          height: 60px;
+          background-color: white;
+          position: relative;
+          top: -310px;
+          margin-left: 55%;
+          text-align: center;
+          font-size: small;
+          border-color: white;
+
+        }
+        .Quick-Searches {
+          width: 239px;
+          height: 43px;
+          font-family: Poppins;
+          font-size: 20px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.53;
+          letter-spacing: normal;
+          text-align: left;
+          color: var(--dark-slate-blue);
+          margin-left: 45px;
+          position: relative;
+          top: -100px;
+        }
+        .meal {
+          width: 331px;
+          height: 25px;
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: normal;
+          text-align: left;
+          margin-left: 43px;
+          position: relative;
+          top: -120px;
+          color: var(--bluey-grey);
+        }
+          }
+          @media only screen and (min-width: 768px ) and (max-width:992px){
+            .heading {
+              width: 500px;
+              height: 30px;
+            
+              
+              position: relative;
+              top: -300px;
+              color: white;
+              text-align: center;
+              font-size: 29px;
+              margin: auto;
+              font-weight: 600;
+          }
+          #search{
+            background-color: white;
+            position: relative; 
+            top:-210px;
+            left:-250px;
+            }
+          .dd {
+            position: relative;
+            top: -150px;
+            text-align: center;
+            margin-left: 25%;
+            width: 170px;
+            height: 60px;
+        }
+        .dd2 {
+          width: 260px;
+          height: 60px;
+          background-color: white;
+          position: relative;
+          top: -210px;
+          margin-left: 50%;
+        }
+        .Quick-Searches {
+          width: 239px;
+          height: 43px;
+          font-family: Poppins;
+          font-size: 20px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.53;
+          letter-spacing: normal;
+          text-align: left;
+          color: var(--dark-slate-blue);
+          margin-left: 45px;
+          position: relative;
+          top: -100px;
+        }
+        .meal {
+          width: 331px;
+          height: 25px;
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: normal;
+          text-align: left;
+          margin-left: 43px;
+          position: relative;
+          top: -120px;
+          color: var(--bluey-grey);
+        }
+          }
+          @media only screen and (min-width: 600px ) and (max-width:768px){
+            .heading {
+              width: 500px;
+              height: 30px;
+              
+              position: relative;
+              top: -250px;
+              color: white;
+              text-align: center;
+              font-size: 29px;
+              margin: auto;
+              font-weight: 700;
+             
+          }
+          .dd {
+            position: relative;
+            top: -130px;
+            text-align: center;
+            margin-left: 25%;
+            width: 150px;
+            height: 60px;
+        }
+        .dd2 {
+          width: 250px;
+          height: 60px;
+          background-color: white;
+          position: relative;
+          top: -190px;
+          margin-left: 55%;
+        }
+        #search{
+          background-color: white;
+          position: relative; 
+          top:-190px;
+          left:-240px;
+          }
+        .Quick-Searches {
+          width: 239px;
+          height: 43px;
+          font-family: Poppins;
+          font-size: 20px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.53;
+          letter-spacing: normal;
+          text-align: left;
+          color: var(--dark-slate-blue);
+          margin-left: 45px;
+          position: relative;
+          top: -100px;
+        }
+        .meal {
+          width: 331px;
+          height: 25px;
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: normal;
+          text-align: left;
+          margin-left: 43px;
+          position: relative;
+          top: -120px;
+          color: var(--bluey-grey);
+        }
+          }
+     @media only screen and (min-width: 992px ) and (max-width:1300px){
+            .heading {
+              width: 500px;
+              height: 30px;
+              
+              font-size: 70px;
+              position: relative;
+              top: -200px;
+              color: white;
+              text-align: center;
+              font-size: 29px;
+              margin: auto;
+              font-weight: 600;
+          }
+          .dd {
+            position: relative;
+            top: -130px;
+            text-align: center;
+            margin-left: 25%;
+            width: 230px;
+            height: 60px;
+        }
+        #search{
+          background-color: white;
+          position: relative; 
+          top:-190px;
+          left:-340px;
+          }
+        .dd2 {
+          width: 350px;
+          height: 60px;
+          background-color: white;
+          position: relative;
+          top: -190px;
+          margin-left: 50%;
+        }
+        .Quick-Searches {
+          width: 239px;
+          height: 43px;
+          font-family: Poppins;
+          font-size: 20px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.53;
+          letter-spacing: normal;
+          text-align: left;
+          color: var(--dark-slate-blue);
+          margin-left: 45px;
+          position: relative;
+          top: -100px;
+        }
+        .meal {
+          width: 331px;
+          height: 25px;
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: normal;
+          text-align: left;
+          margin-left: 43px;
+          position: relative;
+          top: -120px;
+          color: var(--bluey-grey);
+        }
+          }
+    

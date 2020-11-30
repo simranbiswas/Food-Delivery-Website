@@ -1,0 +1,13 @@
+const express = require('express');
+
+var cityController = require('../Controllers/city');
+var mealTypeController = require('../Controllers/Mealtype');
+var restaurantController = require('../Controllers/Restaurant');
+
+const router =express.Router();
+
+router.get('/cityList',cityController.getCityList);
+router.get('/mealtype',mealTypeController.getMealType);
+router.get('/getRestaurantbycity/:cityName',restaurantController.getRestaurantbycity);
+router.get('/getResbyId/:restID',restaurantController.getRestaurantbyID);
+module.exports = router;
