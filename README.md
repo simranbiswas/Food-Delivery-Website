@@ -1,4 +1,4 @@
-# Eatigo - Food Ordering & Delivery Website
+# eatigo! - Food Ordering & Delivery Website
 
 * This website was built so that customers can easily browse all the dishes the  restaurant has available, customize dishes to their requirements and place an order.  Also considering the recent pandemic situations most people will prefer ordering  food online rather than stepping out of their houses.
 
